@@ -1,0 +1,164 @@
+body {
+    background-color: black;
+}
+
+.intro {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+    position: relative;
+
+
+}
+
+
+.banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+.slider {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 300%;
+
+
+    animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+
+    30% {
+        margin-left: 0;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    60% {
+        margin-left: -100%;
+    }
+
+    65% {
+        margin-left: -200%;
+    }
+
+    95% {
+        margin-left: -200%;
+    }
+
+
+}
+
+.banner2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+.award {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    position: relative;
+
+}
+
+.banner3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.contenedor {
+    display: grid;
+    width: 100%;
+    height: 175vh;
+    grid-template-rows: repeat(3, 33%);
+    grid-template-columns: 50% 50%;
+    place-items: strech / strech;
+
+}
+
+.video1 {
+    grid-area: 1/1/2/2;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.nuke {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./imagenes/nuke.png");
+    grid-area: 1/2/2/3;
+}
+
+.linus {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./imagenes/linus.png");
+    grid-area: 2/1/3/2;
+}
+
+.video2 {
+    grid-area: 2/2/3/3;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.video3 {
+    grid-area: 3/1/4/2;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.tech {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./imagenes/tech.png");
+    grid-area: 3/2/4/3;
+}
+.where{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100vw;
+    position: relative;
+}
